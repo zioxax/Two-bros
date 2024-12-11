@@ -21,4 +21,4 @@ showCloseWindowButton=false
 showNon90DegreeRotationWarning=true
 showQuickReplaceCtrlClickTip=true
 showToolMaskOpenWarning=true
-shownIntroduction=false
+shownIntroduction=true

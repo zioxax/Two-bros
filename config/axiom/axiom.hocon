@@ -24,8 +24,8 @@ capabilities {
     bulldozer=true
     # Place blocks very fast in a controlled manner
     fastPlace=false
-    flightCameraDirection=false
-    flightMomentum=1
+    flightCameraDirection=true
+    flightMomentum=0
     # Bypass block placement restrictions
     forcePlace=false
     # Removes the reach limit
@@ -42,13 +42,13 @@ capabilities {
     typeReplace=false
 }
 keybinds {
-    adjustRadius="ctrl+mousemiddle"
+    adjustRadius="ctrl+mouseright"
     adjustSpeed=none
-    arcballCamera="ctrl+mouseleft"
+    arcballCamera=mousemiddle
     arcballCardinalSnap=none
     copy="ctrl+c"
     copyIngame="ctrl+c"
-    crosshairCamera=mouseright
+    crosshairCamera=mouseleft
     cut="ctrl+x"
     cutAlsoCopiesToClipboard=false
     duplicate="ctrl+j"
@@ -66,14 +66,14 @@ keybinds {
     nudgeLeft=left
     nudgeRight=right
     nudgeUp=up
-    panCamera="ctrl+mouseright"
+    panCamera="ctrl+mousemiddle"
     paste="ctrl+v"
-    pickBlock=mousemiddle
+    pickBlock="ctrl+mouseleft"
     pickBlockDrag=true
     quickFill="ctrl+f"
     quickReplace="ctrl+r"
-    redo="ctrl+y"
-    rotateCamera=mouseleft
+    redo="shift+ctrl+z"
+    rotateCamera=mouseright
     rotatePlacement="ctrl+r"
     saveBlueprint="ctrl+p"
     showAnnotations=none
@@ -116,7 +116,7 @@ keybinds {
     undo="ctrl+z"
     useCenterOfScreenForArcball=false
     useEnhancedFlight=true
-    useTool=mouseright
+    useTool=mouseleft
     useVanillaMovement=true
 }
 rendering {

@@ -22,5 +22,25 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				chicken = true
+				villager = true
+				salmon = true
+				wandering_trader = true
+				donkey = true
+				cow = true
+				boat = true
+				item_frame = true
+				pig = true
+				horse = true
+				bat = true
+				leash_knot = true
+				painting = true
+				cat = true
+				rabbit = true
+				glow_squid = true
+				armor_stand = true
 				glow_item_frame = false
+				squid = true
+				sheep = true
+				player = true
 
