@@ -1,0 +1,14 @@
+{
+  "toolBreakWarning": false,
+  "maxEnchantItemThrows": 16384,
+  "minEnchantBookshelves": 0,
+  "maxEnchantBookshelves": 15,
+  "minEnchantLevels": 1,
+  "maxEnchantLevels": 30,
+  "maxChorusItemThrows": 2048,
+  "commandExecutionLimit": 65536,
+  "acceptC2CPackets": false,
+  "itemThrowsPerTick": 1.0,
+  "packetDumpMethod": "REFLECTION",
+  "maximumPacketFieldDepth": 10
+}

@@ -1,0 +1,6 @@
+{
+    "values": [
+        "new_dp:register_players_tick",
+        "new_dp:jukebox_event_tick"
+    ]
+}
